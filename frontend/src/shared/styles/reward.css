@@ -1,0 +1,14 @@
+.reward{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+.reward img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 500px;
+}
+.reward .reward-details{
+    padding: 10px;
+}

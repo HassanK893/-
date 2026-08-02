@@ -1,0 +1,53 @@
+/* Кнопка */
+.button, button{
+    appearance: none;
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    border-radius: 5px;
+    box-shadow:  0px 0px 2px 0px black;
+    padding: 10px;
+    transition: 0.3s;
+    border: 2px solid var(--border-color);
+    width: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    text-decoration: none;
+}
+.button:hover, button:hover{
+    background-color: var(--button-hover-color);    
+    color: var(--button-text-color);
+}
+.button:active, button:active{    
+    background-color: var(--button-active-color);
+    color: var(--button-text-color);
+}
+/* Ссылки */
+a{
+    color:var(--link-color);
+}
+a:active{
+    color:var(--link-active-color);
+}
+a:hover{
+    color:var(--link-hover-color);
+}
+/* Формы */
+form{
+    border: 2px solid var(--border-color);
+    padding: 30px;
+}
+form > *{
+    padding-bottom: 10px;
+}
+form input[type="text"], form textarea{
+    font-size: 10pt;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--border-color);
+    margin-left: 10px;
+    width: 100%;
+}
+form input[type="checkbox"]{
+    margin-right: 10px;
+}
+

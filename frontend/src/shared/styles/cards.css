@@ -1,0 +1,83 @@
+.card{
+    border-radius: 10px;
+    overflow: hidden;    
+    transition: 0.5s;
+    background: var(--main-color);
+    color: var(--text-color);
+}
+.card-list .card{       
+    margin: 10px;
+}
+.card-list{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.vertical-card{    
+    width: 100%;
+    max-width: 400px;
+}
+.horizontal-card{    
+    height: 100%;
+    max-height: 400px;
+}
+.vertical-card img{
+    height: 250px;
+}
+
+/* NEWS */
+
+.news-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:10px;
+    flex-grow: 1;
+}
+.news-content h3{
+    font-weight:500;
+}
+.news-content > p{
+    flex-grow: 1;
+}
+
+.news-card {
+    display: inherit;
+    text-decoration: none;
+}
+
+.news-meta{
+    margin-top: 10px;
+    justify-content: end;
+    border-top: 1px solid var(--border-color);
+}
+/* PERSONS */
+.person{
+    max-width: 500px;
+    min-height: auto;
+    padding: 10px;
+}
+.person div{
+    height: 100%;
+}
+.person p{
+    text-align: center;
+}
+/* Collections */
+.collection-item{
+    max-width: 400px;
+    max-height: 500px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.collection-item a {
+    height: 80%;
+    width: 100%;
+}
+.collection-item img{
+    height: 100%;
+    width: 100%;
+}
+.collection-item .content{
+    padding: 10px;
+}

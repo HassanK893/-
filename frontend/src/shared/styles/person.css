@@ -1,0 +1,24 @@
+
+.person-panel{
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px;
+    transition: 0.5s;
+}
+.person-info{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    flex-grow: 1;
+}
+.person-panel .person-image-container{
+    min-width:250px;
+    max-width:250px;
+    overflow: hidden;
+}
+.person-panel .person-image-container img{ 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

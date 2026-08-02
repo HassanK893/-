@@ -1,0 +1,25 @@
+.story img {
+    width: 1;
+    margin: 10px;
+}
+
+.story p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.story .expo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.story .expo a {
+    max-width: 40%;
+    margin: 10px;
+}
+.story .expo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

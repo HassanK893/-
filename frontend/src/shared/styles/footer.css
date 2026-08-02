@@ -1,0 +1,10 @@
+footer  {
+    background-color: var(--accent-color);;
+    border-top: 2px solid var(--border-color);
+    padding: 50px;
+    text-align: center;
+    color: var(--accent-text-color);
+}
+footer > p {
+    text-align: center;
+}
